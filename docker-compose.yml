@@ -1,0 +1,46 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: wedding-app
+    container_name: wedding-app
+    restart: unless-stopped
+    tty: true
+    ports:
+        - "8000:8000" # Map port 8000 on the host to port 8000 on the container
+    command: php -S 0.0.0.0:8000 -t public
+    environment:
+      SERVICE_NAME: wedding-app
+      SERVICE_TAGS: dev
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+    networks:
+      - app-network
+
+  db:
+    image: mysql:5.7
+    container_name: wedding-db
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: wedding
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  dbdata:
+    driver: local
