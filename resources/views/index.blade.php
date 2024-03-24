@@ -6,7 +6,7 @@
     <title>Courteney & Ethan Wedding</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="assets/images/favicon.png" />
-
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/themify-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
@@ -28,25 +28,26 @@
     <aside id="oliven-aside">
         <!-- Logo -->
         <div class="oliven-logo">
-            <a href="index.html">
+            <a href="/">
                 <img src="assets/images/logo.png" alt="">
                 <span>Courteney <small>&</small> Ethan</span>
                 <h6>2025</h6>
             </a>
         </div>
+
+
         <!-- Menu -->
         <nav class="oliven-main-menu">
             <ul>
-                <li><a href="index.html#home">Home</a></li>
-                <li><a href="index.html#couple">Couple</a></li>
-                <li><a href="index.html#story">Our Story</a></li>
-                <li><a href="index.html#friends">Friends</a></li>
-                <li><a href="index.html#organization">Organization</a></li>
-                <li><a href="index.html#gallery">Gallery</a></li>
-                <li><a href="index.html#whenwhere">When & Where</a></li>
-                <li><a href="index.html#rsvp">R.S.V.P</a></li>
-                <li><a href="index.html#gift">Gift Registry</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="/#home">Home</a></li>
+                <li><a href="/#couple">Couple</a></li>
+                <li><a href="/#story">Our Story</a></li>
+                <li><a href="/#friends">Friends</a></li>
+                <li><a href="/#organization">Organization</a></li>
+                <li><a href="/#gallery">Gallery</a></li>
+                <li><a href="/#whenwhere">When & Where</a></li>
+                <li><a href="/#rsvp">R.S.V.P</a></li>
+                <li><a href="/#gift">Gift Registry</a></li>
             </ul>
         </nav>
         <!-- Sidebar Footer -->
@@ -63,12 +64,13 @@
                     <div class="col-md-12 text-center caption">
                         <h1 class="animate-box" data-animate-effect="fadeInUp">Courteney & Ethan</h1>
                         <h5 class="animate-box" data-animate-effect="fadeInUp">2025 – GQ</h5>
+
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="arrow bounce text-center">
-                            <a href="index.html#couple"> <i class="ti-heart"></i> </a>
+                            <a href="/#couple"> <i class="ti-heart"></i> </a>
                         </div>
                     </div>
                 </div>
@@ -122,25 +124,25 @@
             </div>
         </div>
         <!-- Countdown -->
-{{--        <div id="countdown" class="section-padding bg-img bg-fixed" data-background="assets/images/banner-1.jpg">--}}
-{{--            <div class="container">--}}
-{{--                <div class="row">--}}
-{{--                    <div class="section-head col-md-12">--}}
-{{--                        <h4>We will become a family in</h4>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="row">--}}
-{{--                    <div class="col-md-12">--}}
-{{--                        <ul>--}}
-{{--                            <li><span id="days"></span>Days</li>--}}
-{{--                            <li><span id="hours"></span>Hours</li>--}}
-{{--                            <li><span id="minutes"></span>Minutes</li>--}}
-{{--                            <li><span id="seconds"></span>Seconds</li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
+        {{--<div id="countdown" class="section-padding bg-img bg-fixed" data-background="assets/images/banner-1.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="section-head col-md-12">
+                        <h4>We will become a family in</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><span id="days"></span>Days</li>
+                            <li><span id="hours"></span>Hours</li>
+                            <li><span id="minutes"></span>Minutes</li>
+                            <li><span id="seconds"></span>Seconds</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>--}}
         <!-- Our Story -->
         <div id="story" class="story section-padding">
             <div class="container">
@@ -148,7 +150,7 @@
                     <div class="col-md-5 mb-30">
                         <div class="story-img animate-box" data-animate-effect="fadeInLeft">
                             <div class="img"> <img src="assets/images/story.jpg" class="img-fluid" alt=""> </div>
-                            <div class="story-img-2 story-wedding" style="background-image: url(assets/images/logo-transparent.png);"></div>
+{{--                            <div class="story-img-2 story-wedding" style="background-image: url(assets/images/logo-transparent.png);"></div>--}}
                         </div>
                     </div>
                     <div class="col-md-7 animate-box" data-animate-effect="fadeInRight">
@@ -164,7 +166,7 @@
             </div>
         </div>
         <!-- Friends -->
-        <div id="friends" class="friends section-padding bg-pink">
+        {{--<div id="friends" class="friends section-padding bg-pink">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 mb-30">
@@ -233,9 +235,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--}}
         <!-- See you -->
-        <div id="seeyou" class="seeyou section-padding bg-img bg-fixed" data-background="assets/images/banner-3.jpg">
+        <div id="seeyou" class="seeyou section-padding bg-img bg-fixed" data-background="assets/images/banner-1.jpg">
             <div class="container">
                 <div class="row">
                     <div class="section-head col-md-12 text-center">
@@ -247,7 +249,7 @@
             </div>
         </div>
         <!-- Organization -->
-        <div id="organization" class="organization section-padding bg-pink">
+        {{--<div id="organization" class="organization section-padding bg-pink">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 mb-30">
@@ -278,7 +280,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--}}
         <!-- Gallery -->
         <div id="gallery" class="section-padding">
             <div class="container">
@@ -396,7 +398,7 @@
             </div>
         </div>
         <!-- Confirmation -->
-        <div id="rsvp" class="section-padding bg-img bg-fixed" data-background="assets/images/banner-2.jpg">
+        <div id="rsvp" class="section-padding bg-img bg-fixed" data-background="assets/images/banner-1.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3 bg-white p-40"> <span class="oliven-title-meta text-center">Will you attend?</span>
@@ -480,25 +482,25 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <h2>
-                            <a href="index.html"><img src="assets/images/logo.png" alt=""><span>Courteney <small>&</small> Ethan</span></a>
+                            <a href="/"><img src="assets/images/logo.png" alt=""><span>Courteney <small>&</small> Ethan</span></a>
                         </h2>
-                        <p class="copyright"><?php echo date('F j, Y'). ' – GQ, ZA';?></p>
+                        <p class="copyright">2025 – GQ, ZA';?></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- jQuery -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/modernizr-2.6.2.min.js"></script>
-    <script src="assets/js/jquery.easing.1.3.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/sticky-kit.min.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/modernizr-2.6.2.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/sticky-kit.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </div>
 </body>
 </html>
+
