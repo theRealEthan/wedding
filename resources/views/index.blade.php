@@ -243,7 +243,7 @@
                     <div class="section-head col-md-12 text-center">
                         <span><i class="ti-heart"></i></span>
                         <h4>Looking forward to see you!</h4>
-                        <h3>15.11.2023</h3>
+{{--                        <h3>15.11.2023</h3>--}}
                     </div>
                 </div>
             </div>
@@ -293,65 +293,200 @@
                 <div class="row">
                     <ul class="col list-unstyled list-inline mb-0 gallery-menu" id="gallery-filter">
                         <li class="list-inline-item"><a class="active" data-filter="*">All</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".ceremony">Ceremony</a></li>
-                        <li class="list-inline-item"><a class="" data-filter=".party">Party</a></li>
+                        <li class="list-inline-item"><a class="" data-filter=".life">Life</a></li>
+                        <li class="list-inline-item"><a class="" data-filter=".engagement">Engagement</a></li>
                     </ul>
                 </div>
             </div>
             <div class="container">
                 <div class="row gallery-filter mt-3">
-                    <div class="col-md-4 gallery-item ceremony">
-                        <a href="assets/images/gallery/1.jpg" class="img-zoom">
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/1.jpeg" class="img-zoom">
                             <div class="gallery-box">
-                                <div class="gallery-img"> <img src="assets/images/gallery/1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/1.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
                                 <div class="gallery-detail">
-                                    <h4 class="mb-0">Wedding Ceremony</h4>
+                                    <h4 class="mb-0">Life</h4>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 gallery-item party">
-                        <a href="assets/images/gallery/2.jpg" class="img-zoom">
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/1.jpg" class="img-zoom">
                             <div class="gallery-box">
-                                <div class="gallery-img"> <img src="assets/images/gallery/2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/1.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
                                 <div class="gallery-detail">
-                                    <h4 class="mb-0">Wedding Party</h4> </div>
+                                    <h4 class="mb-0">Engagement</h4> </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 gallery-item ceremony">
-                        <a href="assets/images/gallery/3.jpg" class="img-zoom">
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/2.jpeg" class="img-zoom">
                             <div class="gallery-box">
-                                <div class="gallery-img"> <img src="assets/images/gallery/3.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/2.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
                                 <div class="gallery-detail">
-                                    <h4 class="mb-0">Wedding Ceremony</h4> </div>
+                                    <h4 class="mb-0">Life</h4>
+                                </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 gallery-item party">
-                        <a href="assets/images/gallery/4.jpg" class="img-zoom">
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/2.jpg" class="img-zoom">
                             <div class="gallery-box">
-                                <div class="gallery-img"> <img src="assets/images/gallery/4.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/2.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
                                 <div class="gallery-detail">
-                                    <h4 class="mb-0">Wedding Party</h4> </div>
+                                    <h4 class="mb-0">Engagement</h4> </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 gallery-item ceremony">
-                        <a href="assets/images/gallery/5.jpg" class="img-zoom">
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/3.jpeg" class="img-zoom">
                             <div class="gallery-box">
-                                <div class="gallery-img"> <img src="assets/images/gallery/5.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/3.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
                                 <div class="gallery-detail">
-                                    <h4 class="mb-0">Wedding Ceremony</h4> </div>
+                                    <h4 class="mb-0">Life</h4>
+                                </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 gallery-item party">
-                        <a href="assets/images/gallery/6.jpg" class="img-zoom">
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/3.jpg" class="img-zoom">
                             <div class="gallery-box">
-                                <div class="gallery-img"> <img src="assets/images/gallery/6.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/3.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
                                 <div class="gallery-detail">
-                                    <h4 class="mb-0">Wedding Party</h4> </div>
+                                    <h4 class="mb-0">Engagement</h4> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/4.jpeg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/4.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Life</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/4.jpg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/4.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Engagement</h4> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/5.jpeg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/5.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Life</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/5.jpg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/5.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Engagement</h4> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/6.jpeg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/6.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Life</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/6.jpg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/6.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Engagement</h4> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/7.jpeg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/7.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Life</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/7.jpg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/7.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Engagement</h4> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/8.jpeg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/8.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Life</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/8.jpg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/8.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Engagement</h4> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/9.jpeg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/9.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Life</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/9.jpg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/9.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Engagement</h4> </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item life">
+                        <a href="assets/images/gallery/life/10.jpeg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/life/10.jpeg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Life</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 gallery-item engagement">
+                        <a href="assets/images/gallery/engagement/10.jpg" class="img-zoom">
+                            <div class="gallery-box">
+                                <div class="gallery-img"> <img src="assets/images/gallery/engagement/10.jpg" class="img-fluid mx-auto d-block" alt=""> </div>
+                                <div class="gallery-detail">
+                                    <h4 class="mb-0">Engagement</h4> </div>
                             </div>
                         </a>
                     </div>
@@ -359,44 +494,44 @@
             </div>
         </div>
         <!-- When & Where -->
-        <div id="whenwhere" class="whenwhere section-padding bg-pink">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 mb-30"> <span class="oliven-title-meta">Questions</span>
-                        <h2 class="oliven-title">When & Where</h2> </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div class="whenwhere-img"> <img src="assets/images/whenwhere/3.jpg" alt=""></div>
-                                <div class="content">
-                                    <h5>Wedding Ceremony</h5>
-                                    <p><i class="ti-location-pin"></i> 175 Broadway, Brooklyn, New York 11244, USA</p>
-                                    <p><i class="ti-time"></i> <span>12:00am – 13:00pm</span></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="whenwhere-img"> <img src="assets/images/whenwhere/1.jpg" alt=""></div>
-                                <div class="content">
-                                    <h5>Weddding Party</h5>
-                                    <p><i class="ti-location-pin"></i> Fortune Brooklyn restaurant, 149 Broadway, Brooklyn, NY, USA</p>
-                                    <p><i class="ti-time"></i> <span>14:00pm</span></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="whenwhere-img"> <img src="assets/images/whenwhere/2.jpg" alt=""></div>
-                                <div class="content">
-                                    <h5>Accomodations</h5>
-                                    <p><i class="ti-direction-alt"></i> Hotel and distance from wedding party restaurant:</p>
-                                    <p><i class="ti-direction"></i> The William Vale (7 min)</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+{{--        <div id="whenwhere" class="whenwhere section-padding bg-pink">--}}
+{{--            <div class="container">--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-md-12 mb-30"> <span class="oliven-title-meta">Questions</span>--}}
+{{--                        <h2 class="oliven-title">When & Where</h2> </div>--}}
+{{--                </div>--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-md-12">--}}
+{{--                        <div class="owl-carousel owl-theme">--}}
+{{--                            <div class="item">--}}
+{{--                                <div class="whenwhere-img"> <img src="assets/images/whenwhere/3.jpg" alt=""></div>--}}
+{{--                                <div class="content">--}}
+{{--                                    <h5>Wedding Ceremony</h5>--}}
+{{--                                    <p><i class="ti-location-pin"></i> 175 Broadway, Brooklyn, New York 11244, USA</p>--}}
+{{--                                    <p><i class="ti-time"></i> <span>12:00am – 13:00pm</span></p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="item">--}}
+{{--                                <div class="whenwhere-img"> <img src="assets/images/whenwhere/1.jpg" alt=""></div>--}}
+{{--                                <div class="content">--}}
+{{--                                    <h5>Weddding Party</h5>--}}
+{{--                                    <p><i class="ti-location-pin"></i> Fortune Brooklyn restaurant, 149 Broadway, Brooklyn, NY, USA</p>--}}
+{{--                                    <p><i class="ti-time"></i> <span>14:00pm</span></p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="item">--}}
+{{--                                <div class="whenwhere-img"> <img src="assets/images/whenwhere/2.jpg" alt=""></div>--}}
+{{--                                <div class="content">--}}
+{{--                                    <h5>Accomodations</h5>--}}
+{{--                                    <p><i class="ti-direction-alt"></i> Hotel and distance from wedding party restaurant:</p>--}}
+{{--                                    <p><i class="ti-direction"></i> The William Vale (7 min)</p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
         <!-- Confirmation -->
         <div id="rsvp" class="section-padding bg-img bg-fixed" data-background="assets/images/banner-1.jpg">
             <div class="container">
