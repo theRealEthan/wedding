@@ -552,15 +552,23 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input name="name" type="text" class="form-control" placeholder="Name" required> </div>
+                                        <input name="name" type="text" class="form-control" placeholder="Name" required>
+                                    </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input name="email" type="email" class="form-control" placeholder="Email" required> </div>
+                                        <input name="email" type="email" class="form-control" placeholder="Email" required>
+                                    </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input name="guests" type="text" class="form-control" placeholder="Guests" required> </div>
+                                        <input name="phone" type="text" class="form-control" placeholder="Phone" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input name="guests" type="text" class="form-control" placeholder="Guests" required>
+                                    </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
@@ -619,7 +627,7 @@
                         <h2>
                             <a href="/"><img src="assets/images/logo.png" alt=""><span>Courteney <small>&</small> Ethan</span></a>
                         </h2>
-                        <p class="copyright">2025 – GQ, ZA';?></p>
+                        <p class="copyright">2025 – GQ, ZA</p>
                     </div>
                 </div>
             </div>
