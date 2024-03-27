@@ -6,14 +6,25 @@
     <title>Courteney & Ethan Wedding</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="assets/images/favicon.png" />
-    <script src="{{ secure_asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+
+
+    {{--<script src="{{ secure_asset('assets/js/jquery.min.js') }}"></script>
     <link rel="stylesheet" href="{{ secure_asset('assets/css/animate.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/themify-icons.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('assets/css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/style.css') }}">--}}
 </head>
 <body>
 <!-- Preloader -->
@@ -634,7 +645,19 @@
         </div>
     </div>
     <!-- jQuery -->
-    <script src="{{ secure_asset('assets/js/modernizr-2.6.2.min.js') }}"></script>
+    <script src="{{ asset('assets/js/modernizr-2.6.2.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/sticky-kit.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
+
+
+
+    {{--<script src="{{ secure_asset('assets/js/modernizr-2.6.2.min.js') }}"></script>
     <script src="{{ secure_asset('assets/js/jquery.easing.1.3.js') }}"></script>
     <script src="{{ secure_asset('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ secure_asset('assets/js/jquery.waypoints.min.js') }}"></script>
@@ -642,7 +665,7 @@
     <script src="{{ secure_asset('assets/js/isotope.js') }}"></script>
     <script src="{{ secure_asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <script src="{{ secure_asset('assets/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/main.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/main.js') }}"></script>--}}
 </div>
 </body>
 </html>
